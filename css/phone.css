@@ -2,10 +2,34 @@
 #navbar{
     flex-direction: column;
 }
+
+#navbar::before {
+    content: "";
+    /* background-color: #ef4bac; */
+    /* background-color: #f2f2f2; */
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 92%;
+    width: 100%;
+    z-index: -1;
+    padding-bottom: 16px;
+    /* opacity: 0.4; */
+}
+
 #navbar ul li a{
     font-size: 1rem;
     padding: 0px 5px;
-    padding-bottom: 11px;
+    padding-bottom: 20px;
+    padding: 2px 2px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    color: #ef4bac;
+    font-size: 1rem;
+    background-color: white;
 }
 
 /* Home Section*/
