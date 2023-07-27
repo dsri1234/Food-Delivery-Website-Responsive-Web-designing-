@@ -39,8 +39,9 @@ html {
 
 #navbar::before {
     content: "";
-    /* background-color: #ef4bac; */
-    background-color: #f2f2f2;
+    /* background-color: #ef4bac;[before One] */
+/*     background-color: #f2f2f2;[recent one] */
+    background-color: white
     position: absolute;
     top: 0px;
     left: 0px;
